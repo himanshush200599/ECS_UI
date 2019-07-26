@@ -1,8 +1,16 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
+import { Provider } from "react-redux";
+import store from "./store";
 
-function App() {
-  return <div>Hello ECS,I am here to be hire with you</div>;
+class App extends Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <div className="text-success">Hello Himanshu</div>
+      </Provider>
+    );
+  }
 }
 
 export default App;
