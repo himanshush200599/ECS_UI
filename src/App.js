@@ -1,3 +1,5 @@
+// @// TODO: debouncing in search bar and checkout features
+
 import React, { Component } from "react";
 import "./App.css";
 import db from "./db";
